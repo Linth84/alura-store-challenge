@@ -44,7 +44,7 @@ AluraStoreChallenge/
 
     Matplotlib – visualización de datos
 
-    Google Colab / Jupyter Notebook
+    Google Colab
 
 ## Ejemplos de gráficos e insights
 
