@@ -1,37 +1,103 @@
 # Alura Store – Análisis de ventas y desempeño
 
-## Descripción del proyecto
-Este proyecto analiza el desempeño de las cuatro tiendas de la cadena **Alura Store** con el objetivo de identificar cuál presenta menor rentabilidad y debería ser vendida por el Sr. Juan para financiar un nuevo emprendimiento.
-
-El análisis se desarrolló utilizando **Python** y las bibliotecas **Pandas** y **Matplotlib**, enfocándose en métricas de ventas, calificaciones, costos logísticos y satisfacción del cliente.
-
----
-
-## Objetivos del análisis
-- Evaluar la **facturación total** de cada tienda.  
-- Determinar las **categorías y productos más vendidos**.  
-- Calcular la **calificación promedio** otorgada por los clientes.  
-- Analizar el **costo de envío promedio** por tienda.  
-- Combinar los indicadores anteriores en un **índice de desempeño general** para determinar qué tienda tiene el menor rendimiento.
+## Estado del proyecto
+**Finalizado.**  
+Este proyecto fue desarrollado como parte del programa **Oracle Next Education – Alura Latam (Data Science)**.
 
 ---
 
-## Principales resultados
-- La **Tienda 1** obtuvo el mayor ingreso total, mientras que la **Tienda 4** fue la de menor facturación.  
-- Las **Tiendas 2 y 3** destacaron por mejores calificaciones de clientes.  
-- La **Tienda 4**, a pesar de tener el menor costo de envío, presentó el índice de desempeño más bajo.  
-
-**Conclusión:**  
-De acuerdo con los resultados, se recomienda **vender la Tienda 4**, dado que su rentabilidad y desempeño general son inferiores en comparación con el resto.
-
----
-
-## Archivos del repositorio
-- `AluraStoreLatam.ipynb` → Notebook principal con análisis, cálculos y gráficos.  
-- `README.md` → Descripción general del proyecto y conclusiones.  
+## Índice
+1. [Propósito del proyecto](#propósito-del-proyecto)  
+2. [Estructura del proyecto](#estructura-del-proyecto)  
+3. [Tecnologías utilizadas](#tecnologías-utilizadas)  
+4. [Ejemplos de gráficos e insights](#ejemplos-de-gráficos-e-insights)  
+5. [Principales resultados e insights](#principales-resultados-e-insights)  
+6. [Instrucciones para ejecutar el notebook](#instrucciones-para-ejecutar-el-notebook)  
+7. [Autor](#autor)  
+8. [Licencia](#licencia)
 
 ---
 
-## Autor
-**Alberto Edgardo Villalba**  
-Alura Latam – Programa de Data Science  
+## Propósito del proyecto
+El objetivo de este análisis es evaluar el rendimiento de las cuatro tiendas de la cadena **Alura Store** con el fin de determinar **cuál presenta menor rentabilidad** y debería ser vendida por el Sr. Juan para financiar un nuevo emprendimiento.  
+
+El estudio se basa en datos reales de ventas, calificaciones y costos logísticos, aplicando técnicas de análisis exploratorio con Python.  
+Se buscó **identificar patrones de comportamiento, comparar métricas de desempeño y generar conclusiones respaldadas por visualizaciones**.
+
+---
+
+## Estructura del proyecto
+
+El análisis se desarrolló utilizando **Python**, principalmente con las bibliotecas **Pandas** y **Matplotlib**, siguiendo un enfoque exploratorio y descriptivo.
+
+AluraStoreLatamChallenge/
+│
+├── AluraStoreLatamChallenge.ipynb # Notebook principal con análisis, cálculos y gráficos
+├── data/ # Carpeta con los archivos CSV de cada tienda
+│ ├── tienda1.csv
+│ ├── tienda2.csv
+│ ├── tienda3.csv
+│ └── tienda4.csv
+└── README.md # Descripción general del proyecto
+
+
+---
+
+## Tecnologías utilizadas
+- **Python 3**
+- **Pandas** – manejo y análisis de datos  
+- **Matplotlib** – visualización de datos  
+- **Google Colab / Jupyter Notebook**
+
+---
+
+## Ejemplos de gráficos e insights
+
+Durante el desarrollo se generaron distintas visualizaciones para apoyar los resultados del análisis:
+
+### 1. Gráfico de barras – Ingresos totales  
+Mostró que la **Tienda 1** alcanzó la mayor facturación, mientras que la **Tienda 4** obtuvo los ingresos más bajos.
+
+### 2. Gráfico de barras horizontales – Costo de envío promedio  
+Reveló que la **Tienda 4** tiene los costos logísticos más bajos, aunque esto no se traduce en un mejor desempeño general.
+
+### 3. Gráfico de dispersión – Análisis geográfico  
+Usando las columnas de **latitud** y **longitud**, se representaron las ubicaciones de las ventas.  
+Se observó una concentración en grandes centros urbanos como **Bogotá, Medellín y Cali**, sin diferencias regionales relevantes en las métricas de desempeño.
+
+---
+
+## Principales resultados e insights
+
+- **Tienda 1:** Mayor nivel de ingresos, pero menor calificación promedio.  
+- **Tienda 2 y 3:** Buen balance entre ventas y satisfacción del cliente.  
+- **Tienda 4:** Bajos ingresos y ventas, a pesar de tener costos logísticos reducidos.  
+
+### Conclusión final  
+De acuerdo con los resultados del análisis y el índice de desempeño calculado, se recomienda **vender la Tienda 4**, ya que presenta **el menor rendimiento global** entre las cuatro tiendas analizadas.
+
+---
+
+## Instrucciones para ejecutar el notebook
+
+1. **Clonar o descargar el repositorio:**
+   ```bash
+   git clone https://github.com/tuusuario/AluraStoreLatamChallenge.git
+
+    Abrir el notebook:
+
+        En Google Colab (recomendado)
+
+        o en Jupyter Notebook / VS Code
+
+    Instalar las dependencias necesarias (si es local):
+
+    pip install pandas matplotlib
+
+    Ejecutar las celdas en orden.
+    Asegúrate de tener los archivos CSV en la carpeta data/.
+
+Autor
+
+Alberto Edgardo Villalba
+Programa Oracle + Alura Latam – Data Science
