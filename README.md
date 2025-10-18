@@ -27,77 +27,75 @@ Se buscó **identificar patrones de comportamiento, comparar métricas de desemp
 ---
 
 ## Estructura del proyecto
-
 El análisis se desarrolló utilizando **Python**, principalmente con las bibliotecas **Pandas** y **Matplotlib**, siguiendo un enfoque exploratorio y descriptivo.
 
-AluraStoreLatamChallenge/
+**Estructura del repositorio:**
+```text
+AluraStoreChallenge/
 │
-├── AluraStoreLatamChallenge.ipynb # Notebook principal con análisis, cálculos y gráficos
-├── data/ # Carpeta con los archivos CSV de cada tienda
-│ ├── tienda1.csv
-│ ├── tienda2.csv
-│ ├── tienda3.csv
-│ └── tienda4.csv
-└── README.md # Descripción general del proyecto
-
-
----
-
+├── AluraStoreLatamChallenge.ipynb   
+└── README.md                        
+```
 ## Tecnologías utilizadas
-- **Python 3**
-- **Pandas** – manejo y análisis de datos  
-- **Matplotlib** – visualización de datos  
-- **Google Colab / Jupyter Notebook**
 
----
+    Python 3
+
+    Pandas – manejo y análisis de datos
+
+    Matplotlib – visualización de datos
+
+    Google Colab / Jupyter Notebook
 
 ## Ejemplos de gráficos e insights
 
 Durante el desarrollo se generaron distintas visualizaciones para apoyar los resultados del análisis:
+1. Gráfico de barras – Ingresos totales
 
-### 1. Gráfico de barras – Ingresos totales  
-Mostró que la **Tienda 1** alcanzó la mayor facturación, mientras que la **Tienda 4** obtuvo los ingresos más bajos.
+Mostró que la Tienda 1 alcanzó la mayor facturación, mientras que la Tienda 4 obtuvo los ingresos más bajos.
+2. Gráfico de barras horizontales – Costo de envío promedio
 
-### 2. Gráfico de barras horizontales – Costo de envío promedio  
-Reveló que la **Tienda 4** tiene los costos logísticos más bajos, aunque esto no se traduce en un mejor desempeño general.
+Reveló que la Tienda 4 tiene los costos logísticos más bajos, aunque esto no se traduce en un mejor desempeño general.
+3. Gráfico de dispersión – Análisis geográfico
 
-### 3. Gráfico de dispersión – Análisis geográfico  
-Usando las columnas de **latitud** y **longitud**, se representaron las ubicaciones de las ventas.  
-Se observó una concentración en grandes centros urbanos como **Bogotá, Medellín y Cali**, sin diferencias regionales relevantes en las métricas de desempeño.
-
----
+Usando las columnas de latitud y longitud, se representaron las ubicaciones de las ventas.
+Se observó una concentración en grandes centros urbanos como Bogotá, Medellín y Cali, sin diferencias regionales relevantes en las métricas de desempeño.
 
 ## Principales resultados e insights
 
-- **Tienda 1:** Mayor nivel de ingresos, pero menor calificación promedio.  
-- **Tienda 2 y 3:** Buen balance entre ventas y satisfacción del cliente.  
-- **Tienda 4:** Bajos ingresos y ventas, a pesar de tener costos logísticos reducidos.  
+    Tienda 1: Mayor nivel de ingresos, pero menor calificación promedio.
 
-### Conclusión final  
-De acuerdo con los resultados del análisis y el índice de desempeño calculado, se recomienda **vender la Tienda 4**, ya que presenta **el menor rendimiento global** entre las cuatro tiendas analizadas.
+    Tiendas 2 y 3: Buen balance entre ventas y satisfacción del cliente.
 
----
+    Tienda 4: Bajos ingresos y ventas, a pesar de tener costos logísticos reducidos.
+
+## Conclusión final
+
+De acuerdo con los resultados del análisis y el índice de desempeño calculado, se recomienda vender la Tienda 4, ya que presenta el menor rendimiento global entre las cuatro tiendas analizadas.
 
 ## Instrucciones para ejecutar el notebook
 
-1. **Clonar o descargar el repositorio:**
-   ```bash
-   git clone https://github.com/tuusuario/AluraStoreLatamChallenge.git
+    Clonar o descargar el repositorio:
 
-    Abrir el notebook:
+git clone https://github.com/tuusuario/alura-store-challenge.git
 
-        En Google Colab (recomendado)
+Abrir el notebook:
 
-        o en Jupyter Notebook / VS Code
+    En Google Colab (recomendado)
 
-    Instalar las dependencias necesarias (si es local):
+    O en Jupyter Notebook / VS Code
+
+Instalar las dependencias necesarias (si es local):
 
     pip install pandas matplotlib
 
     Ejecutar las celdas en orden.
-    Asegúrate de tener los archivos CSV en la carpeta data/.
 
-Autor
+## Autor
 
 Alberto Edgardo Villalba
 Programa Oracle + Alura Latam – Data Science
+
+## Licencia
+
+Este proyecto se distribuye con fines educativos y no comerciales.
+Puede ser utilizado libremente como referencia de análisis exploratorio de datos en Python.
