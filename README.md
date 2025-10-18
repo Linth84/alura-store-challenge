@@ -34,4 +34,4 @@ De acuerdo con los resultados, se recomienda **vender la Tienda 4**, dado que su
 
 ## Autor
 **Alberto Edgardo Villalba**  
-Cohorte Alura Latam – Programa de Data Science  
+Alura Latam – Programa de Data Science  
